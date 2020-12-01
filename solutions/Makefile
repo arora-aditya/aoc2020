@@ -3,10 +3,13 @@ GREEN=\033[0;32m
 BLUE=\033[36m
 NC=\033[0m
 
-run: ## Run solution for day=X
-	python3 day${day}.py
+day    := $(shell date +%-d)
+filetd := day$(shell date +%-d).py
 
-input: ## Get input for day=X
+run: ## Run solution for day=X (default based on day of month)
+	python3 ${filetd}
+
+input: ## Get input for day=X (default based on day of month)
 	@python3 helper/getInput/getInput.py ${day}
 	@echo "${GREEN}input stored in input${day}.txt${NC}"
 

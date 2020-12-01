@@ -3,7 +3,7 @@ import datetime
 
 import os 
 data_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data.json'))
-output_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../README.md'))
+output_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../../README.md'))
 
 with open(data_path, 'r') as f:
     datastore = json.load(f)

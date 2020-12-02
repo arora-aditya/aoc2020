@@ -26,7 +26,7 @@ def create_source_file(d: int):
     with open(f"day{d}.py", "w") as file:
         lines = [
             "from typing import List, Dict, Set\n",
-            "from collections import defaultdict\n",
+            "from collections import *\n",
             "from functools import lru_cache\n",
             "from math import log10\n",
             "from helper.submit.submit import *\n",

@@ -11,4 +11,4 @@ def read_file_int(day):
 def read_file(day):
     with open(f"./inputs/input{day}.txt", "r") as f:
         lines = f.readlines()
-    return lines
+    return [line.strip() for line in lines]

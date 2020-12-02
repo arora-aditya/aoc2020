@@ -7,7 +7,7 @@ from datetime import timedelta
 from dotenv import load_dotenv
 from requests import post
 
-YEAR = 2015
+YEAR = 2020
 DAY = -1
 
 URL = "https://adventofcode.com/{:d}/day/{:d}/{:s}"
@@ -55,8 +55,6 @@ def check_or_die(resp):
 
 
 def submit(part, answer):
-    print(answer)
-    return
     if answer == float('inf'):
         print("INFINITY NOT SUBMITTED")
         return

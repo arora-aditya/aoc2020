@@ -7,11 +7,16 @@ from datetime import timedelta
 from dotenv import load_dotenv
 from requests import post
 
+from termcolor import colored
+
 YEAR = 2020
 DAY = -1
 
 URL = "https://adventofcode.com/{:d}/day/{:d}/{:s}"
 
+RED = "red"
+GREEN = "green"
+BLUE = "blue"
 
 def get_cookie():
     load_dotenv()
@@ -34,7 +39,7 @@ def set_date():
     y, m, d = now.year, now.month, now.day
 
     if m != 12 or (m == 12 and d > 25):
-        print("ERROR: year and day not set, and no event currently running!\n")
+        print(colored("ERROR: year and day not set, and no event currently running!\n", RED))
         sys.exit(1)
 
     print("Year and day not set, assuming today: Dec {}, {}.\n", d, y)
@@ -56,7 +61,7 @@ def check_or_die(resp):
 
 def submit(part, answer):
     if answer == float('inf'):
-        print("INFINITY NOT SUBMITTED")
+        print(colored("INFINITY NOT SUBMITTED", BLUE))
         return
 
     if not is_setup():
@@ -77,22 +82,22 @@ def submit(part, answer):
     t = response.text.lower()
 
     if "did you already complete it" in t:
-        print("Already completed!\n")
+        print(colored("Already completed!\n", GREEN))
         return True
 
     if "that's the right answer" in t:
-        print("Right answer!\n")
+        print(colored("Right answer!\n", GREEN))
         return True
 
     if "you have to wait" in t:
         matches = re.compile(r"you have ([\w ]+) left to wait").findall(t)
 
         if matches:
-            print(f"Submitting too fast, {matches[0]} left to wait.\n")
+            print(colored(f"Submitting too fast, {matches[0]} left to wait.\n", BLUE))
         else:
-            print("Submitting too fast, slow down!\n")
+            print(colored("Submitting too fast, slow down!\n", BLUE))
 
         return False
 
-    print("Wrong answer :(\n")
+    print(colored("Wrong answer :(\n", RED))
     return False

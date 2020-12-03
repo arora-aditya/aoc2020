@@ -8,8 +8,10 @@ output_path = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__fi
 with open(data_path, 'r') as f:
     datastore = json.load(f)
 
+YEAR = 2020
+
 headers = [
-    "# Advent of Code 2020",
+    f"# Advent of Code {YEAR}",
     "",
     "My solutions to this year's problems linked [here](https://adventofcode.com/2020)",
     "",
@@ -20,7 +22,7 @@ headers = [
 max_len_c1, max_len_c2, max_len_c3, max_len_c4 = 3,0,0,0
 for day, info in datastore.items():
     name, rank1, rank2 = info['name'], str(info['part1']), str(info['part2'])
-    name = f'[{name}](https://adventofcode.com/2019/day/{int(day)})'
+    name = f'[{name}](https://adventofcode.com/{YEAR}/day/{int(day)})'
     max_len_c1 = max(max_len_c1, len(day))
     max_len_c2 = max(max_len_c2, len(name))
     max_len_c3 = max(max_len_c3, len(rank1))
@@ -38,7 +40,7 @@ table = [
 for day, info in datastore.items():
     day = day
     name = info['name']
-    name = f'[{name}](https://adventofcode.com/2020/day/{int(day)})'
+    name = f'[{name}](https://adventofcode.com/{YEAR}/day/{int(day)})'
     rank1 = str(info['part1'])
     rank2 = str(info['part2'])
     if rank1 == "-1" or rank2 == "-1":

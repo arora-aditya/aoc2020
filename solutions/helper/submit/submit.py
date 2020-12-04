@@ -61,7 +61,7 @@ def check_or_die(resp):
 
 def submit(part, answer):
     if answer == float('inf'):
-        print(colored("INFINITY NOT SUBMITTED", BLUE))
+        print(colored("∞ not submitted", BLUE))
         return
 
     if not is_setup():

@@ -9,8 +9,8 @@ Day | Problem                                                         | Part One
 01  | [Report Repair](https://adventofcode.com/2020/day/1)            | 734      | 1005     | 
 02  | [Password Philosophy](https://adventofcode.com/2020/day/2)      | 1480     | 1079     | 
 03  | [Toboggan Trajectory](https://adventofcode.com/2020/day/3)      | 793      | 683      | 
-04  | [Passport Processing](https://adventofcode.com/2020/day/4)      | 1442     | 497      | 
-05  | [](https://adventofcode.com/2020/day/5)                         |          |          | 
+04  | [Passport Processing](https://adventofcode.com/2020/day/4)      | 1442     | 597      | 
+05  | [Binary Boarding](https://adventofcode.com/2020/day/5)          | 626      | 407      | 
 06  | [](https://adventofcode.com/2020/day/6)                         |          |          | 
 07  | [](https://adventofcode.com/2020/day/7)                         |          |          | 
 08  | [](https://adventofcode.com/2020/day/8)                         |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-04 00:34:29.425848
+Auto-Generated at 2020-12-05 00:21:44.163907

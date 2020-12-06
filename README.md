@@ -11,7 +11,7 @@ Day | Problem                                                         | Part One
 03  | [Toboggan Trajectory](https://adventofcode.com/2020/day/3)      | 793      | 683      | 
 04  | [Passport Processing](https://adventofcode.com/2020/day/4)      | 1442     | 597      | 
 05  | [Binary Boarding](https://adventofcode.com/2020/day/5)          | 626      | 407      | 
-06  | [](https://adventofcode.com/2020/day/6)                         |          |          | 
+06  | [Custom Customs](https://adventofcode.com/2020/day/6)           | 2307     | 1044     | 
 07  | [](https://adventofcode.com/2020/day/7)                         |          |          | 
 08  | [](https://adventofcode.com/2020/day/8)                         |          |          | 
 09  | [](https://adventofcode.com/2020/day/9)                         |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-05 00:21:44.163907
+Auto-Generated at 2020-12-06 00:12:05.888148

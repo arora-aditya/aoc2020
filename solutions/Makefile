@@ -11,6 +11,8 @@ run: ## Run solution for day=X (default based on day of month)
 
 input: ## Get input for day=X (default based on day of month)
 	@python3 helper/getInput/getInput.py ${day}
+	@git add .
+	@atom inputs/input${day}.txt day${day}.py
 	@echo "${GREEN}input stored in input${day}.txt${NC}"
 
 README: ## Update root README

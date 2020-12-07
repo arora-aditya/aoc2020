@@ -34,7 +34,7 @@ def create_source_file(d: int):
             "\n\n",
             f"DAY = {d}\n",
             "setup(DAY)\n",
-            "file = read_file(DAY)\n",
+            "lines = read_file(DAY)\n",
             "\n\n",
             "# Part 1\n",
             "#"*50,

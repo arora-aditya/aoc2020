@@ -31,6 +31,10 @@ def setup(d):
     global DAY
     DAY = d
 
+def read_file(day):
+    with open(f"./inputs/input{day}.txt", "r") as f:
+        lines = f.readlines()
+    return [line.strip() for line in lines]
 
 def set_date():
     global DAY
@@ -62,6 +66,10 @@ def check_or_die(resp):
 def submit(part, answer):
     if answer == float('inf'):
         print(colored("∞ not submitted", BLUE))
+        return
+    
+    if len(read_file(DAY)) < 100:
+        print(colored("Are you sure this isn't the sample?", RED))
         return
 
     if not is_setup():

@@ -19,6 +19,10 @@ README: ## Update root README
 	@python3 helper/generateREADME/generateREADME.py
 	@echo "${GREEN}README generated${NC}"
 
+DONE: README ## update README and push up to git
+	@git add .
+	@git commit -am "day ${DAY} ✅"
+
 .PHONY: help
 
 help:

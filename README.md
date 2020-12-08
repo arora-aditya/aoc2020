@@ -13,7 +13,7 @@ Day | Problem                                                         | Part One
 05  | [Binary Boarding](https://adventofcode.com/2020/day/5)          | 626      | 407      | 
 06  | [Custom Customs](https://adventofcode.com/2020/day/6)           | 2307     | 1044     | 
 07  | [Handy Haversacks](https://adventofcode.com/2020/day/7)         | 680      | 1152     | 
-08  | [](https://adventofcode.com/2020/day/8)                         |          |          | 
+08  | [Handheld Halting](https://adventofcode.com/2020/day/8)         | 1113     | 986      | 
 09  | [](https://adventofcode.com/2020/day/9)                         |          |          | 
 10  | [](https://adventofcode.com/2020/day/10)                        |          |          | 
 11  | [](https://adventofcode.com/2020/day/11)                        |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-07 00:32:42.942209
+Auto-Generated at 2020-12-08 00:18:27.783543

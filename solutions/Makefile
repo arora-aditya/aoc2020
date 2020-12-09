@@ -4,6 +4,7 @@ BLUE=\033[36m
 NC=\033[0m
 
 day    := $(shell date +%-d)
+dayp   := $(shell printf '%02d' $(day))
 filetd := day$(shell date +%-d).py
 
 run: ## Run solution for day=X (default based on day of month)
@@ -21,7 +22,12 @@ README: ## Update root README
 
 DONE: README ## update README and push up to git
 	@git add .
-	@git commit -am "day ${DAY} ✅"
+	@git commit -am "day ${day} ✅"
+	@git push
+	@echo "${GREEN}pushed to git${NC}"
+	
+CCSS: ## push to CCSS git and create PR
+	@cd ~/github/advent-of-code-2020/2020 && git pull other master && mkdir -p day-${dayp}/arora-aditya && cp ~/github/aoc2020/solutions/day${day}.py  day-${dayp}/arora-aditya && git add .  && git commit -am "add day ${day}" && git push && gh pr create -w
 
 .PHONY: help
 

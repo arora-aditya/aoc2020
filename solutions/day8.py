@@ -37,7 +37,6 @@ def parse_line(line):
         print("F")
         sys.exit(1)
     return i, int(num)
-    print(line)
 
 pines = []
 for line in lines:
@@ -67,7 +66,7 @@ while True:
 ans = acc
 
 
-# submit(1, ans)
+submit(1, ans)
 
 
 # Part 2
@@ -75,7 +74,6 @@ ans = acc
 ans = float("inf")
 
 def does_loop(ps):
-    print(ps)
     accc = 0
 
     seen = set()

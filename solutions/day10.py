@@ -55,5 +55,15 @@ for i in range(len(sor)-2, -1, -1):
 
 ans = dp[0]
 
+@lru_cache(None)
+def get_ways(i):
+    if i == 0:
+        return 1
+    if i in sor:
+        return get_ways(i-1) + get_ways(i-2) + get_ways(i-3)
+    else:
+        return 0
+
+ans = get_ways(max(sor))
 
 submit(2, ans)

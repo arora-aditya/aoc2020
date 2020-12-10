@@ -15,7 +15,7 @@ Day | Problem                                                         | Part One
 07  | [Handy Haversacks](https://adventofcode.com/2020/day/7)         | 680      | 1152     | 
 08  | [Handheld Halting](https://adventofcode.com/2020/day/8)         | 1113     | 986      | 
 09  | [Encoding Error](https://adventofcode.com/2020/day/9)           | 760      | 745      | 
-10  | [](https://adventofcode.com/2020/day/10)                        |          |          | 
+10  | [Adapter Array](https://adventofcode.com/2020/day/10)           | 1041     | 494      | 
 11  | [](https://adventofcode.com/2020/day/11)                        |          |          | 
 12  | [](https://adventofcode.com/2020/day/12)                        |          |          | 
 13  | [](https://adventofcode.com/2020/day/13)                        |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-09 00:13:51.546858
+Auto-Generated at 2020-12-10 00:18:46.028314

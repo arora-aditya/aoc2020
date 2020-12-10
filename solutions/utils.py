@@ -9,6 +9,4 @@ def read_file_int(day):
 
 
 def read_file(day):
-    with open(f"./inputs/input{day}.txt", "r") as f:
-        lines = f.readlines()
-    return [line.strip() for line in lines]
+    return list(map(str.strip, open(f"./inputs/input{day}.txt", "r")))

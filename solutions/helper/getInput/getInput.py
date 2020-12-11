@@ -38,15 +38,18 @@ def create_source_file(d: int):
             "\n\n",
             "# Part 1\n",
             "#"*50,
-            "\nans = float(\"inf\")\n",
-            "\n"*5,
-            "submit(1, ans)\n"
+            "\ndef part1(lines: List[str]) -> int:",
+            "\n    return float(\"inf\")",
+            "\n"*2,
+            "submit(1, part1(lines))\n"
             "\n\n",
             "# Part 2\n",
             "#"*50,
-            "\nans = float(\"inf\")\n",
-            "\n"*5,
-            "submit(2, ans)\n"
+            "\ndef part2(lines: List[str]) -> int:",
+            "\n    return float(\"inf\")",
+            "\n"*2,
+            "submit(2, part2(lines))\n"
+            "\n\n",
         ]
         file.writelines(lines)
 
@@ -65,6 +68,7 @@ def get_day_from_args():
 
 
 day = get_day_from_args()
+
 if download_input_for_day(day):
     create_source_file(day)
 else:

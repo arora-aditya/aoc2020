@@ -18,6 +18,7 @@ input: ## Get input for day=X (default based on day of month)
 
 README: ## Update root README
 	@python3 helper/generateREADME/generateREADME.py
+	@git add .
 	@echo "${GREEN}README generated${NC}"
 
 DONE: README ## update README and push up to git

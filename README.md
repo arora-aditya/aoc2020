@@ -16,7 +16,7 @@ Day | Problem                                                         | Part One
 08  | [Handheld Halting](https://adventofcode.com/2020/day/8)         | 1113     | 986      | 
 09  | [Encoding Error](https://adventofcode.com/2020/day/9)           | 760      | 745      | 
 10  | [Adapter Array](https://adventofcode.com/2020/day/10)           | 1041     | 494      | 
-11  | [](https://adventofcode.com/2020/day/11)                        |          |          | 
+11  | [Seating System](https://adventofcode.com/2020/day/11)          | 1267     | 619      | 
 12  | [](https://adventofcode.com/2020/day/12)                        |          |          | 
 13  | [](https://adventofcode.com/2020/day/13)                        |          |          | 
 14  | [](https://adventofcode.com/2020/day/14)                        |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-10 00:18:46.028314
+Auto-Generated at 2020-12-11 00:36:40.877238

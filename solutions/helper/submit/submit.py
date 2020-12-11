@@ -68,8 +68,8 @@ def submit(part, answer):
         print(colored("∞ not submitted", BLUE))
         return
     
-    if len(read_file(DAY)) < 100:
-        print(colored("Are you sure this isn't the sample?", RED))
+    if len(read_file(DAY)) < 50:
+        print(colored(f"{answer} ==> Are you sure this isn't the sample?", RED))
         return
 
     if not is_setup():
@@ -90,11 +90,11 @@ def submit(part, answer):
     t = response.text.lower()
 
     if "did you already complete it" in t:
-        print(colored("Already completed!\n", GREEN))
+        print(colored(f"{answer}, Already completed!\n", GREEN))
         return True
 
     if "that's the right answer" in t:
-        print(colored("Right answer!\n", GREEN))
+        print(colored(f"{answer}, Right answer!\n", GREEN))
         return True
 
     if "you have to wait" in t:

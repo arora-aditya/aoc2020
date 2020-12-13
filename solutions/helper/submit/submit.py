@@ -68,9 +68,9 @@ def submit(part, answer):
         print(colored("∞ not submitted", BLUE))
         return
     
-    # if len(read_file(DAY)) < 50:
-    #     print(colored(f"{answer} ==> Are you sure this isn't the sample?", RED))
-    #     return
+    if len(read_file(DAY)) < 50:
+        print(colored(f"{answer} ==> Are you sure this isn't the sample?", RED))
+        return
 
     if not is_setup():
         set_date()

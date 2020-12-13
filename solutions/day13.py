@@ -1,6 +1,7 @@
 from typing import List, Dict, Set
 from collections import *
 from functools import lru_cache
+from functools import reduce
 from math import log10
 from helper.submit.submit import *
 from utils import *
@@ -56,7 +57,6 @@ def part1(lines: List[str]) -> int:
 #         else:
 #             s *= 2
 
-from functools import reduce
 def chinese_remainder(n, a):
     sum = 0
     prod = reduce(lambda a, b: a*b, n)
@@ -64,9 +64,7 @@ def chinese_remainder(n, a):
         p = prod // n_i
         sum += a_i * mul_inv(p, n_i) * p
     return sum % prod
- 
- 
- 
+
 def mul_inv(a, b):
     b0 = b
     x0, x1 = 0, 1

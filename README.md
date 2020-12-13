@@ -18,7 +18,7 @@ Day | Problem                                                         | Part One
 10  | [Adapter Array](https://adventofcode.com/2020/day/10)           | 1041     | 494      | 
 11  | [Seating System](https://adventofcode.com/2020/day/11)          | 1267     | 619      | 
 12  | [Rain Risk](https://adventofcode.com/2020/day/12)               | 450      | 227      | 
-13  | [](https://adventofcode.com/2020/day/13)                        |          |          | 
+13  | [Shuttle Search](https://adventofcode.com/2020/day/13)          | 991      | 185      | 
 14  | [](https://adventofcode.com/2020/day/14)                        |          |          | 
 15  | [](https://adventofcode.com/2020/day/15)                        |          |          | 
 16  | [](https://adventofcode.com/2020/day/16)                        |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                         | Part One
 25  | [](https://adventofcode.com/2020/day/25)                        |          |          | 
 
 
-Auto-Generated at 2020-12-12 00:17:44.127383
+Auto-Generated at 2020-12-13 00:25:51.644632

@@ -63,12 +63,12 @@ def check_or_die(resp):
         sys.exit(1)
 
 
-def submit(part, answer):
+def submit(part, answer, force=False):
     if answer == float('inf'):
         print(colored("∞ not submitted", BLUE))
         return
     
-    if len(read_file(DAY)) < 50:
+    if len(read_file(DAY)) < 50 and not force:
         print(colored(f"{answer} ==> Are you sure this isn't the sample?", RED))
         return
 

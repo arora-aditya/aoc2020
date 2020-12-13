@@ -31,7 +31,7 @@ def part1(lines: List[str]) -> int:
             ans = [m, b]
     return ans[0] * ans[1]
 
-# submit(1, part1(lines))
+submit(1, part1(lines), True)
 
 
 # Part 2
@@ -87,6 +87,6 @@ def part2(lines: List[str]) -> int:
             divisors.append(x)
     return chinese_remainder(divisors, remainders)
 
-submit(2, part2(lines))
+submit(2, part2(lines), True)
 
 

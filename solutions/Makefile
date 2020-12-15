@@ -6,6 +6,7 @@ NC=\033[0m
 day    := $(shell date +%-d)
 dayp   := $(shell printf '%02d' $(day))
 filetd := day$(shell date +%-d).py
+comment:= ''
 
 run: ## Run solution for day=X (default based on day of month)
 	python3 ${filetd}
@@ -23,7 +24,7 @@ README: ## Update root README
 
 DONE: README ## update README and push up to git
 	@git add .
-	@git commit -am "day ${day} ✅"
+	@git commit -am "day ${day} ✅" -m "${comment}"
 	@git push
 	@echo "${GREEN}pushed to git${NC}"
 	

@@ -30,7 +30,6 @@ def part1(lines: List[str]) -> int:
     for line in lines:
         if line.startswith("mask = "):
             mask = line[len("mask = "):]
-            print(mask)
         else:
             index = int(line[line.index("[") + 1:line.index("]")])
             value = int(line[line.index("=") + 1:])

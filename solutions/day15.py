@@ -34,7 +34,7 @@ def part1(lines: List[str]) -> int:
     return nums[-1]    
     
 
-# submit(1, part1(lines), True)
+submit(1, part1(lines), True)
 
 
 # Part 2

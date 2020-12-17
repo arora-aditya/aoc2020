@@ -53,7 +53,7 @@ def set_date():
 
 def check_or_die(resp):
     if resp.status_code != 200:
-        print("ERROR: response {}, url: {}\n", resp.status_code, resp.url)
+        print(f"ERROR: response {resp.status_code}, url: {resp.url}\n")
         print("Did you log in and update your session cookie?\n")
         sys.exit(1)
 

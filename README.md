@@ -23,7 +23,7 @@ Day | Problem                                                              | Par
 15  | [Rambunctious Recitation](https://adventofcode.com/2020/day/15)      | 439      | 256      | 
 16  | [Ticket Translation](https://adventofcode.com/2020/day/16)           | 1536     | 210      | 
 17  | [Conway Cubes](https://adventofcode.com/2020/day/17)                 | 278      | 178      | 
-18  | [](https://adventofcode.com/2020/day/18)                             |          |          | 
+18  | [Operation Order](https://adventofcode.com/2020/day/18)              | 1071     | 919      | 
 19  | [](https://adventofcode.com/2020/day/19)                             |          |          | 
 20  | [](https://adventofcode.com/2020/day/20)                             |          |          | 
 21  | [](https://adventofcode.com/2020/day/21)                             |          |          | 
@@ -33,4 +33,4 @@ Day | Problem                                                              | Par
 25  | [](https://adventofcode.com/2020/day/25)                             |          |          | 
 
 
-Auto-Generated at 2020-12-17 00:45:28.074633
+Auto-Generated at 2020-12-18 00:38:59.435749
